@@ -1,29 +1,29 @@
 body {
-    background-color: black;
-    color: #00FF00;
-    font-family: arial,  sans-serif;
+  background-color: black;
+  background-image: url("matrixassgif.gif");
+  color: #00ff00;
+  font-family: arial, sans-serif;
 }
 a:link {
-   color: #00ff00;
+  color: #00ff00;
 }
 
 a:visited {
-   color: #00ffff;
+  color: #00ffff;
 }
 
 /*marquee css*/
 @keyframes marquee-slide {
-	0% {
-		transform: translatex(100%);
-	}
-	100% {
-		transform: translatex(-40ch); /*40ch is the approximate length of the text*/
-	}
+  0% {
+    transform: translatex(100%);
+  }
+  100% {
+    transform: translatex(-40ch); /*40ch is the approximate length of the text*/
+  }
 }
 
 .marquee-inner {
-	--_scroll-speed: 12s;
-	width: 40ch;
-	animation: marquee-slide var(--_scroll-speed) linear infinite;
+  --_scroll-speed: 12s;
+  width: 40ch;
+  animation: marquee-slide var(--_scroll-speed) linear infinite;
 }
-
