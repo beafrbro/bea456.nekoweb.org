@@ -12,7 +12,7 @@ a:visited {
   color: #00ffff;
 }
 
-/*marquee css, thank you @salderr for the marquee code.*/
+/*marquee css*/
 @keyframes marquee-slide {
   0% {
     transform: translatex(100%);
@@ -27,4 +27,3 @@ a:visited {
   width: 40ch;
   animation: marquee-slide var(--_scroll-speed) linear infinite;
 }
-
